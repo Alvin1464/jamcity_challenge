@@ -1,6 +1,8 @@
 using Employees.Model;
 using Moq;
 using NUnit.Framework;
+using static Employees.Model.Currency;
+using static Employees.Model.Seniority;
 
 namespace Tests.Employees.Model
 {
@@ -12,31 +14,45 @@ namespace Tests.Employees.Model
         [Test]
         public void EmployeesHaveASeniority()
         {
-            GivenAnEmployeeWithSeniority(Seniority.Junior);
-            ThenSeniorityIs(Seniority.Junior);
+            GivenAnEmployeeWithSeniority(Junior);
+            ThenSeniorityIs(Junior);
         }
 
         [Test]
         public void EmployeesSeniorityCanBeRaised()
         {
-            GivenAnEmployeeWithSeniority(Seniority.Junior);
+            GivenAnEmployeeWithSeniority(Junior);
             WhenSeniorityIsRaised();
-            ThenSeniorityIs(Seniority.Semi_Senior);
+            ThenSeniorityIs(Semi_Senior);
             WhenSeniorityIsRaised();
-            ThenSeniorityIs(Seniority.Senior);
+            ThenSeniorityIs(Senior);
         }
 
         [Test]
         public void EmployeesSeniorityCannotBeRaisedAboveSeniorLevel()
         {
-            GivenAnEmployeeWithSeniority(Seniority.Senior);
+            GivenAnEmployeeWithSeniority(Senior);
             WhenSeniorityIsRaised();
-            ThenSeniorityIs(Seniority.Senior);
+            ThenSeniorityIs(Senior);
+        }
+        
+        [Test]
+        public void EmployeesHaveASalary()
+        {
+            var employeeSalary = new Salary(1000, DOLLARS);
+            GivenAEmployeeWithSalary(employeeSalary);
+            ThenSalaryIs(employeeSalary);
+        }
+
+        void GivenAEmployeeWithSalary(Salary salary)
+        {
+            var mockEmployee = new Mock<Employee>(Junior, salary);
+            employee = mockEmployee.Object;
         }
 
         void GivenAnEmployeeWithSeniority(Seniority seniority)
         {
-            var mockEmployee = new Mock<Employee>(seniority);
+            var mockEmployee = new Mock<Employee>(seniority, new Salary());
             employee = mockEmployee.Object;
         }
         
@@ -44,5 +60,8 @@ namespace Tests.Employees.Model
         
         void ThenSeniorityIs(Seniority seniority) => 
             Assert.AreEqual(employee.GetSeniority(), seniority);
+
+        void ThenSalaryIs(Salary salary) =>
+            Assert.AreEqual(employee.GetSalary(), salary);
     }
 }
