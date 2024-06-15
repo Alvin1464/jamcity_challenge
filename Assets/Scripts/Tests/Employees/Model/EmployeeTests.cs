@@ -7,7 +7,7 @@ using static Employees.Model.Seniority;
 namespace Tests.Employees.Model
 {
     [TestFixture]
-    public class EmployeesTests
+    public class EmployeeTests
     {
         Employee employee;
 
@@ -37,7 +37,7 @@ namespace Tests.Employees.Model
         }
         
         [Test]
-        public void EmployeesHaveASalary()
+        public void EmployeeHaveASalary()
         {
             var employeeSalary = new Salary(1000, DOLLARS);
             GivenAEmployeeWithSalary(employeeSalary);
