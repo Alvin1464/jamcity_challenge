@@ -13,19 +13,13 @@ namespace Employees.Model
         {
         }
 
-        static Salary calculateBaseSalary(Seniority seniority)
-        {
-            switch (seniority)
+        static Salary calculateBaseSalary(Seniority seniority) =>
+            seniority switch
             {
-                case Seniority.Junior:
-                    return juniorBaseSalary;
-                case Seniority.Semi_Senior:
-                    return semiSeniorBaseSalary;
-                case Seniority.Senior:
-                    return seniorBaseSalary;
-                default:
-                    return new Salary();
-            }
-        }
+                Seniority.Junior => juniorBaseSalary,
+                Seniority.Semi_Senior => semiSeniorBaseSalary,
+                Seniority.Senior => seniorBaseSalary,
+                _ => new Salary()
+            };
     }
 }
