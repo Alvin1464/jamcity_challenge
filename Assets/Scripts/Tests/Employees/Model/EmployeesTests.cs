@@ -7,28 +7,42 @@ namespace Tests.Employees.Model
     [TestFixture]
     public class EmployeesTests
     {
+        Employee employee;
 
         [Test]
         public void EmployeesHaveASeniority()
         {
-            var mockEmployee = new Mock<Employee>();
-            var employee = mockEmployee.Object;
-            var currentSeniority = employee.GetSeniority();
-            Assert.AreEqual(currentSeniority, Seniority.Junior);
+            GivenAnEmployeeWithSeniority(Seniority.Junior);
+            ThenSeniorityIs(Seniority.Junior);
         }
 
         [Test]
-        public void EmployeesSeniorityCanBeRaisedUntilSenior()
+        public void EmployeesSeniorityCanBeRaised()
         {
-            var mockEmployee = new Mock<Employee>();
-            var employee = mockEmployee.Object;
-            Assert.AreEqual(employee.GetSeniority(), Seniority.Junior);
-            employee.RaiseSeniority();
-            Assert.AreEqual(employee.GetSeniority(), Seniority.Semi_Senior);
-            employee.RaiseSeniority();
-            Assert.AreEqual(employee.GetSeniority(), Seniority.Senior);
-            employee.RaiseSeniority();
-            Assert.AreEqual(employee.GetSeniority(), Seniority.Senior);
+            GivenAnEmployeeWithSeniority(Seniority.Junior);
+            WhenSeniorityIsRaised();
+            ThenSeniorityIs(Seniority.Semi_Senior);
+            WhenSeniorityIsRaised();
+            ThenSeniorityIs(Seniority.Senior);
         }
+
+        [Test]
+        public void EmployeesSeniorityCannotBeRaisedAboveSeniorLevel()
+        {
+            GivenAnEmployeeWithSeniority(Seniority.Senior);
+            WhenSeniorityIsRaised();
+            ThenSeniorityIs(Seniority.Senior);
+        }
+
+        void GivenAnEmployeeWithSeniority(Seniority seniority)
+        {
+            var mockEmployee = new Mock<Employee>(seniority);
+            employee = mockEmployee.Object;
+        }
+        
+        void WhenSeniorityIsRaised() => employee.RaiseSeniority();
+        
+        void ThenSeniorityIs(Seniority seniority) => 
+            Assert.AreEqual(employee.GetSeniority(), seniority);
     }
 }

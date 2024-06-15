@@ -4,8 +4,13 @@ namespace Employees.Model
 {
     public abstract class Employee
     {
-        protected Seniority seniority = Junior;
+        protected Seniority seniority;
         
+        protected Employee(Seniority seniority)
+        {
+            this.seniority = seniority;
+        }
+
         public Seniority GetSeniority() => 
             seniority;
 
