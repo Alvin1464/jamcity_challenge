@@ -1,4 +1,6 @@
-namespace Employees.Model
+using Employees.Model;
+
+namespace Employees.Configurations
 {
     public static class EngineerConfiguration {
         static readonly Salary juniorBaseSalary = new(1500, Currency.DOLLARS);

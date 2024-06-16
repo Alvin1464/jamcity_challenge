@@ -1,5 +1,5 @@
 using System;
-using static Employees.Model.EngineerConfiguration;
+using static Employees.Configurations.EngineerConfiguration;
 
 namespace Employees.Model
 {
