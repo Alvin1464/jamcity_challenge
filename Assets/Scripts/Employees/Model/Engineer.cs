@@ -12,17 +12,17 @@ namespace Employees.Model
         static readonly float semiSeniorSalaryIncrementPercentage = 7f;
         static readonly float seniorSalaryIncrementPercentage = 10f;
         
-        public Engineer(Seniority seniority) : base(seniority, getBaseSalary(seniority))
+        public Engineer(Seniority seniority) : base(seniority, GetBaseSalary(seniority))
         {
         }
 
         public void ApplySalaryIncrement()
         {
-            var newAmount = salary.Amount * getSalaryIncrementPercentage(seniority) * 0.01f + salary.Amount;
+            var newAmount = salary.Amount * GetSalaryIncrementPercentage() * 0.01f + salary.Amount;
             salary = new Salary(newAmount, salary.SalaryCurrency);
         }
 
-        float getSalaryIncrementPercentage(Seniority seniority) =>
+        float GetSalaryIncrementPercentage() =>
             seniority switch
             {
                 Seniority.Junior => juniorSalaryIncrementPercentage,
@@ -31,7 +31,7 @@ namespace Employees.Model
                 _ => 0f
             };
 
-        static Salary getBaseSalary(Seniority seniority) =>
+        static Salary GetBaseSalary(Seniority seniority) =>
             seniority switch
             {
                 Seniority.Junior => juniorBaseSalary,
