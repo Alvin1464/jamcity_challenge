@@ -25,10 +25,28 @@ namespace Tests.Employees.Model
             ThenEngineerSalaryIs(new Salary(amount, currency));
         }
 
+        [Test]
+        [TestCase(Junior, 5f)]
+        [TestCase(Semi_Senior, 7f)]
+        [TestCase(Senior, 10f)]
+        public void EngineersHaveASalaryIncrementPercentageBasedOfTheSeniority(Seniority seniority, float percentage)
+        {
+            GivenAEngineerWithSeniority(seniority);
+            var initialSalaryAmount = engineer.GetSalary().Amount;
+            WhenAppliedSalaryIncrement();
+            ThenSalaryAmountIs(initialSalaryAmount * 0.01f * percentage + initialSalaryAmount);
+        }
+
+        void WhenAppliedSalaryIncrement() => 
+            engineer.ApplySalaryIncrement();
+
         void GivenAEngineerWithSeniority(Seniority seniority) => 
             engineer = new Engineer(seniority);
 
         void ThenEngineerSalaryIs(Salary salary) => 
             Assert.AreEqual(engineer.GetSalary(), salary);
+
+        void ThenSalaryAmountIs(float expectedSalaryAmount) =>
+            Assert.AreEqual(engineer.GetSalary().Amount, expectedSalaryAmount);
     }
 }

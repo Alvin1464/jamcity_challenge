@@ -4,10 +4,10 @@ namespace Employees.Model
 {
     public struct Salary
     {
-        public int Amount { get; private set; }
+        public float Amount { get; private set; }
         public Currency SalaryCurrency { get; private set; }
 
-        public Salary(int amount = 0, Currency currency = DOLLARS)
+        public Salary(float amount = 0, Currency currency = DOLLARS)
         {
             Amount = amount;
             SalaryCurrency = currency;
