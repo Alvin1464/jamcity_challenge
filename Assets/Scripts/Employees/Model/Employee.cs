@@ -1,4 +1,3 @@
-using static Employees.Model.Currency;
 using static Employees.Model.Seniority;
 
 namespace Employees.Model
