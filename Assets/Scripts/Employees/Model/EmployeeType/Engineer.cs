@@ -1,7 +1,6 @@
-using System;
 using static Employees.Configurations.EngineerConfiguration;
 
-namespace Employees.Model
+namespace Employees.Model.EmployeeType
 {
     public class Engineer : Employee
     {

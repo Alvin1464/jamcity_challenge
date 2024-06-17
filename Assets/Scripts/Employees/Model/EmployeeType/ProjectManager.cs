@@ -1,6 +1,6 @@
 using static Employees.Configurations.ProjectManagerConfiguration;
 
-namespace Employees.Model
+namespace Employees.Model.EmployeeType
 {
     public class ProjectManager : Employee
     {

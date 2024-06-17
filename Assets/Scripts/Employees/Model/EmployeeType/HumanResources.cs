@@ -1,6 +1,6 @@
 using static Employees.Configurations.HumanResourcesConfiguration;
 
-namespace Employees.Model
+namespace Employees.Model.EmployeeType
 {
     public class HumanResources : Employee
     {

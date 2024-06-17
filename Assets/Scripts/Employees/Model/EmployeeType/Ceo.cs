@@ -1,7 +1,7 @@
 using static Employees.Configurations.CeoConfiguration;
 using static Employees.Model.Seniority;
 
-namespace Employees.Model
+namespace Employees.Model.EmployeeType
 {
     public class Ceo : Employee
     {

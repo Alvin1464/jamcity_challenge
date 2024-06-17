@@ -1,6 +1,6 @@
 using static Employees.Configurations.ArtistConfiguration;
 
-namespace Employees.Model
+namespace Employees.Model.EmployeeType
 {
     public class Artist : Employee
     {

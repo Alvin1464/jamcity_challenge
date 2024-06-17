@@ -1,6 +1,6 @@
 using static Employees.Configurations.DesignerConfiguration;
 
-namespace Employees.Model
+namespace Employees.Model.EmployeeType
 {
     public class Designer : Employee
     {

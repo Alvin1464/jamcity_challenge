@@ -1,4 +1,5 @@
 using Employees.Model;
+using Employees.Model.EmployeeType;
 using NUnit.Framework;
 using static Employees.Model.Currency;
 using static Employees.Model.Seniority;
