@@ -19,7 +19,8 @@ namespace Tests.Employees.Model
         [TestCase(Senior, 4000, DOLLARS)]
         public void ProjectManagerBaseSalaryDependsOfTheSeniority(Seniority seniority, int amount, Currency currency)
         {
-            GivenAProjectManagerWithSeniority(seniority);
+            GivenAProjectManager(seniority);
+            WhenAssignBaseSalary();
             ThenSalaryIs(new Salary(amount, currency));
         }
 
@@ -29,17 +30,21 @@ namespace Tests.Employees.Model
         public void ProjectManagerHaveASalaryIncrementPercentageBasedOfTheSeniority(
             Seniority seniority, float percentage)
         {
-            GivenAProjectManagerWithSeniority(seniority);
+            GivenAProjectManager(seniority, new Salary(1000, DOLLARS));
             var initialSalaryAmount = projectManager.GetSalary().Amount;
             WhenAppliedSalaryIncrement();
             ThenSalaryAmountIs(initialSalaryAmount * 0.01f * percentage + initialSalaryAmount);
         }
 
-        void GivenAProjectManagerWithSeniority(Seniority seniority) => 
-            projectManager = new ProjectManager(seniority);
+        void GivenAProjectManager(Seniority seniority = Junior, Salary salary = new()) => 
+            projectManager = new ProjectManager(seniority, salary);
+        
         
         void WhenAppliedSalaryIncrement() => 
             projectManager.ApplySalaryIncrement();
+        
+        void WhenAssignBaseSalary() => 
+            projectManager.AssignBaseSalary();
 
         void ThenSalaryIs(Salary salary) => 
             Assert.AreEqual(projectManager.GetSalary(), salary);

@@ -21,7 +21,8 @@ namespace Tests.Employees.Model
         [TestCase(Senior, 5000, DOLLARS)]
         public void EngineerBaseSalaryDependsOfTheSeniority(Seniority seniority, int amount, Currency currency)
         {
-            GivenAEngineerWithSeniority(seniority);
+            GivenAEngineerWith(seniority);
+            WhenAssignBaseSalary();
             ThenEngineerSalaryIs(new Salary(amount, currency));
         }
 
@@ -31,17 +32,20 @@ namespace Tests.Employees.Model
         [TestCase(Senior, 10f)]
         public void EngineersHaveASalaryIncrementPercentageBasedOfTheSeniority(Seniority seniority, float percentage)
         {
-            GivenAEngineerWithSeniority(seniority);
+            GivenAEngineerWith(seniority, new Salary(1000, DOLLARS));
             var initialSalaryAmount = engineer.GetSalary().Amount;
             WhenAppliedSalaryIncrement();
             ThenSalaryAmountIs(initialSalaryAmount * 0.01f * percentage + initialSalaryAmount);
         }
 
-        void GivenAEngineerWithSeniority(Seniority seniority) => 
-            engineer = new Engineer(seniority);
+        void GivenAEngineerWith(Seniority seniority, Salary salary = new()) => 
+            engineer = new Engineer(seniority, salary);
         
         void WhenAppliedSalaryIncrement() => 
             engineer.ApplySalaryIncrement();
+        
+        void WhenAssignBaseSalary() => 
+            engineer.AssignBaseSalary();
 
         void ThenEngineerSalaryIs(Salary salary) => 
             Assert.AreEqual(engineer.GetSalary(), salary);

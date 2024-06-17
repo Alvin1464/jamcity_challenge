@@ -19,7 +19,8 @@ namespace Tests.Employees.Model
         [TestCase(Senior, 2000, DOLLARS)]
         public void ArtistsBaseSalaryDependsOfTheSeniority(Seniority seniority, int amount, Currency currency)
         {
-            GivenAnArtistWithSeniority(seniority);
+            GivenAnArtistWith(seniority);
+            WhenAssignBaseSalary();
             ThenArtistSalaryIs(new Salary(amount, currency));
         }
 
@@ -28,17 +29,20 @@ namespace Tests.Employees.Model
         [TestCase(Senior, 5f)]
         public void ArtistsHaveASalaryIncrementPercentageBasedOfTheSeniority(Seniority seniority, float percentage)
         {
-            GivenAnArtistWithSeniority(seniority);
+            GivenAnArtistWith(seniority, new Salary(1000, DOLLARS));
             var initialSalaryAmount = artist.GetSalary().Amount;
             WhenAppliedSalaryIncrement();
             ThenSalaryAmountIs(initialSalaryAmount * 0.01f * percentage + initialSalaryAmount);
         }
 
-        void GivenAnArtistWithSeniority(Seniority seniority) => 
-            artist = new Artist(seniority);
+        void GivenAnArtistWith(Seniority seniority, Salary salary = new()) => 
+            artist = new Artist(seniority, salary);
         
         void WhenAppliedSalaryIncrement() => 
             artist.ApplySalaryIncrement();
+        
+        void WhenAssignBaseSalary() => 
+            artist.AssignBaseSalary();
 
         void ThenArtistSalaryIs(Salary salary) => 
             Assert.AreEqual(artist.GetSalary(), salary);

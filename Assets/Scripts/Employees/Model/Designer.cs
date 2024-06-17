@@ -4,9 +4,12 @@ namespace Employees.Model
 {
     public class Designer : Employee
     {
-        public Designer(Seniority seniority) : base(seniority, GetBaseSalary(seniority))
+        public Designer(Seniority seniority, Salary salary = new()) : base(seniority, salary)
         {
         }
+        
+        public void AssignBaseSalary() => 
+            salary = GetBaseSalary(seniority);
 
         public void ApplySalaryIncrement()
         {

@@ -34,19 +34,17 @@ namespace Tests.Employees.Model
         [TestCase(100f)]
         public void CeoHaveASalaryIncrementPercentageOf(float percentage)
         {
-            GivenACeoWithSalary(new Salary(300000f, DOLLARS));
+            GivenACeo(new Salary(300000f, DOLLARS));
             var initialSalaryAmount = ceo.GetSalary().Amount;
             WhenAppliedSalaryIncrement();
             ThenSalaryAmountIs(initialSalaryAmount*2);
         }
 
-        void GivenACeoWithSalary(Salary salary) => 
+        void GivenACeo(Salary salary = new ()) => 
             ceo = new Ceo(salary);
 
         void WhenAppliedSalaryIncrement() => 
             ceo.ApplySalaryIncrement();
-
-        void GivenACeo() => ceo = new Ceo();
 
         void WhenAssignBaseSalary() => 
             ceo.AssignBaseSalary();

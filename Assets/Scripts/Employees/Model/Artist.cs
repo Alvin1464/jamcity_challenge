@@ -4,9 +4,12 @@ namespace Employees.Model
 {
     public class Artist : Employee
     {
-        public Artist(Seniority seniority) : base(seniority, GetBaseSalary(seniority))
+        public Artist(Seniority seniority, Salary salary = new()) : base(seniority, salary)
         {
         }
+        
+        public void AssignBaseSalary() => 
+            salary = GetBaseSalary(seniority);
 
         public void ApplySalaryIncrement()
         {

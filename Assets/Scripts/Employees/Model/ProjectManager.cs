@@ -4,9 +4,12 @@ namespace Employees.Model
 {
     public class ProjectManager : Employee
     {
-        public ProjectManager(Seniority seniority) : base(seniority, GetBaseSalary(seniority))
+        public ProjectManager(Seniority seniority, Salary salary = new()) : base(seniority, salary)
         {
         }
+        
+        public void AssignBaseSalary() => 
+            salary = GetBaseSalary(seniority);
 
         public void ApplySalaryIncrement()
         {
