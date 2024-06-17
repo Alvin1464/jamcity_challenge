@@ -11,7 +11,7 @@ namespace Tests.Employees.Model
         ProjectManager projectManager;
         
         [Test]
-        public void HumanResourcesAreEmployees() => 
+        public void ProjectManagersAreEmployees() => 
             Assert.IsTrue(typeof(ProjectManager).IsSubclassOf(typeof(Employee)));
 
         [Test]
@@ -26,7 +26,8 @@ namespace Tests.Employees.Model
         [Test]
         [TestCase(Semi_Senior, 5f)]
         [TestCase(Senior, 10f)]
-        public void ProjectManagerHaveASalaryIncrementPercentageBasedOfTheSeniority(Seniority seniority, float percentage)
+        public void ProjectManagerHaveASalaryIncrementPercentageBasedOfTheSeniority(
+            Seniority seniority, float percentage)
         {
             GivenAProjectManagerWithSeniority(seniority);
             var initialSalaryAmount = projectManager.GetSalary().Amount;
