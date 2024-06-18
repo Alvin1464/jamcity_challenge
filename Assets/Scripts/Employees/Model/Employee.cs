@@ -6,11 +6,16 @@ namespace Employees.Model
     {
         protected Seniority seniority;
         protected Salary salary;
+        protected string fullName;
         
-        protected Employee(Seniority seniority = Junior, Salary salary = new())
+        protected Employee(
+            Seniority seniority = Junior, 
+            Salary salary = new(), 
+            string fullName = "no name")
         {
             this.seniority = seniority;
             this.salary = salary;
+            this.fullName = fullName;
         }
 
         public Seniority GetSeniority() => 
@@ -21,5 +26,8 @@ namespace Employees.Model
 
         public void RaiseSeniority() => 
             seniority = seniority == Junior ? Semi_Senior : Senior;
+
+        public string GetFullName() => 
+            fullName;
     }
 }

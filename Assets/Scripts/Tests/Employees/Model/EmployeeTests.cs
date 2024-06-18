@@ -40,13 +40,21 @@ namespace Tests.Employees.Model
         public void EmployeeHaveASalary()
         {
             var employeeSalary = new Salary(1000, DOLLARS);
-            GivenAEmployeeWithSalary(employeeSalary);
+            GivenAEmployeeWith(employeeSalary);
             ThenSalaryIs(employeeSalary);
         }
 
-        void GivenAEmployeeWithSalary(Salary salary)
+        [Test]
+        public void EmployeeHaveAFullName()
         {
-            var mockEmployee = new Mock<Employee>(Junior, salary);
+            var fullName = "Name Surname";
+            GivenAEmployeeWith(fullName: fullName);
+            ThenFullNameIs(fullName);
+        }
+
+        void GivenAEmployeeWith(Salary salary = new(), Seniority seniority = Junior, string fullName = "")
+        {
+            var mockEmployee = new Mock<Employee>(seniority, salary, fullName);
             employee = mockEmployee.Object;
         }
 
@@ -55,6 +63,9 @@ namespace Tests.Employees.Model
             var mockEmployee = new Mock<Employee>(seniority, new Salary());
             employee = mockEmployee.Object;
         }
+        
+        void ThenFullNameIs(string fullName) => 
+            Assert.AreEqual(fullName, employee.GetFullName());
         
         void WhenSeniorityIsRaised() => employee.RaiseSeniority();
         
