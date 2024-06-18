@@ -14,14 +14,14 @@ namespace Tests.Employees.Model
         [Test]
         public void EmployeesHaveASeniority()
         {
-            GivenAnEmployeeWithSeniority(Junior);
+            GivenAEmployeeWith(seniority:Junior);
             ThenSeniorityIs(Junior);
         }
 
         [Test]
         public void EmployeesSeniorityCanBeRaised()
         {
-            GivenAnEmployeeWithSeniority(Junior);
+            GivenAEmployeeWith(seniority:Junior);
             WhenSeniorityIsRaised();
             ThenSeniorityIs(Semi_Senior);
             WhenSeniorityIsRaised();
@@ -31,7 +31,7 @@ namespace Tests.Employees.Model
         [Test]
         public void EmployeesSeniorityCannotBeRaisedAboveSeniorLevel()
         {
-            GivenAnEmployeeWithSeniority(Senior);
+            GivenAEmployeeWith(seniority:Senior);
             WhenSeniorityIsRaised();
             ThenSeniorityIs(Senior);
         }
@@ -48,9 +48,12 @@ namespace Tests.Employees.Model
         public void EmployeeHaveAFullName()
         {
             var fullName = "Name Surname";
-            GivenAEmployeeWith(fullName: fullName);
+            GivenAEmployeeWith();
+            WhenSetFullName(fullName);
             ThenFullNameIs(fullName);
         }
+
+        void WhenSetFullName(string fullName) => employee.SetFullName(fullName);
 
         [Test]
         public void EmployeeHaveAnID()
@@ -66,16 +69,10 @@ namespace Tests.Employees.Model
             string fullName = "",
             string id = "")
         {
-            var mockEmployee = new Mock<Employee>(seniority, salary, fullName);
+            var mockEmployee = new Mock<Employee>(seniority, salary, fullName, id);
             employee = mockEmployee.Object;
         }
 
-        void GivenAnEmployeeWithSeniority(Seniority seniority)
-        {
-            var mockEmployee = new Mock<Employee>(seniority, new Salary());
-            employee = mockEmployee.Object;
-        }
-        
         void WhenSeniorityIsRaised() => employee.RaiseSeniority();
         
         void ThenFullNameIs(string fullName) => 

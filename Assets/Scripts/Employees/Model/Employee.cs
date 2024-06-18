@@ -27,6 +27,11 @@ namespace Employees.Model
         public Salary GetSalary() =>
             salary;
 
+        public void SetFullName(string value)
+        {
+            fullName = value;
+        }
+
         public void RaiseSeniority() => 
             seniority = seniority == Junior ? Semi_Senior : Senior;
 

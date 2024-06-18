@@ -1,10 +1,15 @@
+using Employees.Model;
+using Employees.Model.EmployeeType;
+
 namespace Employees.Services
 {
     public class HireEmployeeService
     {
-        void Execute()
+        public Employee Execute(string fullName)
         {
-            
+            var ceo = new Ceo();
+            ceo.SetFullName(fullName);
+            return new Ceo();
         }
     }
 }
