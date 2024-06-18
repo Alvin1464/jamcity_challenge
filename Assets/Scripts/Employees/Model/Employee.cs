@@ -7,15 +7,18 @@ namespace Employees.Model
         protected Seniority seniority;
         protected Salary salary;
         protected string fullName;
+        protected string id;
         
         protected Employee(
             Seniority seniority = Junior, 
             Salary salary = new(), 
-            string fullName = "no name")
+            string fullName = "no name",
+            string id = "no id")
         {
             this.seniority = seniority;
             this.salary = salary;
             this.fullName = fullName;
+            this.id = id;
         }
 
         public Seniority GetSeniority() => 
@@ -29,5 +32,7 @@ namespace Employees.Model
 
         public string GetFullName() => 
             fullName;
+
+        public string GetId() => id;
     }
 }
