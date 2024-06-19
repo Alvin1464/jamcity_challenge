@@ -39,5 +39,7 @@ namespace Employees.Model
             fullName;
 
         public string GetId() => id;
+
+        public void SetId(string value) => id = value;
     }
 }
