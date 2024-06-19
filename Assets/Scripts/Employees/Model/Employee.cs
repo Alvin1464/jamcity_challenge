@@ -43,5 +43,8 @@ namespace Employees.Model
         public string GetId() => id;
 
         public void SetId(string value) => id = value;
+
+        //TODO: test para este metodo
+        public void SetSalary(Salary salary) => this.salary = salary;
     }
 }

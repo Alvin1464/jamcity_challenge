@@ -39,5 +39,27 @@ namespace Employees.Repositories.DTOs
                 _ => throw new Exception("Role not exist")
             };
         }
+
+        public Employee ToEmployee()
+        {
+            //TODO: checkear si el DTO puede tener structs y Enums asi lo parseo mucho mas facil y seguro.
+            var employee = GenerateEmployeeBasedOn(Enum.Parse<Role>(role), Enum.Parse<Seniority>(seniority));
+            employee.SetId(id);
+            employee.SetFullName(fullName);
+            employee.SetSalary(new Salary(salaryAmount, Enum.Parse<Currency>(salaryCurrency)));
+            return employee;
+        }
+        
+        Employee GenerateEmployeeBasedOn(Role role, Seniority seniority) =>
+            role switch
+            {
+                CEO => new Ceo(),
+                ARTIST => new Artist(seniority),
+                ENGINEER => new Engineer(seniority),
+                PM => new ProjectManager(seniority),
+                HR => new HumanResources(seniority),
+                DESIGNER => new Designer(seniority),
+                _ => throw new ArgumentOutOfRangeException(nameof(role), role, "Undefined role")
+            };
     }
 }

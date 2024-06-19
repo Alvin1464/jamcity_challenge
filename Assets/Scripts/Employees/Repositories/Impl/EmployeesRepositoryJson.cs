@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Employees.Model;
 using Employees.Repositories.DTOs;
 using Unity.Plastic.Newtonsoft.Json;
@@ -14,11 +15,22 @@ namespace Employees.Repositories.Impl
         public void SaveEmployee(Employee employee)
         {
             var dto = new EmployeeDTO(employee);
-            var file = ReadFile();
-            var employeeDictionary = ParseEmployeesDictionary(file);
+            var employeeDictionary = GetEmployeeDictionaryDTOs();
             employeeDictionary[dto.id] = dto;
             WriteFile(employeeDictionary);
         }
+
+        static Dictionary<string, EmployeeDTO> GetEmployeeDictionaryDTOs()
+        {
+            var file = ReadFile();
+            var employeeDictionary = ParseEmployeesDictionary(file);
+            return employeeDictionary;
+        }
+
+        public Dictionary<string, Employee> GetEmployees() => 
+            GetEmployeeDictionaryDTOs()
+                .Select(pair => pair.Value.ToEmployee())
+                .ToDictionary(x => x.GetId());
 
         static void WriteFile(Dictionary<string, EmployeeDTO> employeeDictionary)
         {
