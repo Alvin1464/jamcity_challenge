@@ -9,7 +9,7 @@ namespace Employees.Model.EmployeeType
         {
         }
 
-        public void AssignBaseSalary() => 
+        public override void AssignBaseSalary() => 
             salary = GetBaseSalary(seniority);
         
         public void ApplySalaryIncrement()

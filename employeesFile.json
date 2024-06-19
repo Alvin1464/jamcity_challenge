@@ -1,0 +1,2010 @@
+{
+    "34c44b8d-e3f6-464d-9898-bd5d6996a3f6": {
+        "id": "34c44b8d-e3f6-464d-9898-bd5d6996a3f6",
+        "fullName": "Marta Perez",
+        "role": "HR",
+        "seniority": "Senior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "99e12248-c17f-41b8-8969-3d75123dfb04": {
+        "id": "99e12248-c17f-41b8-8969-3d75123dfb04",
+        "fullName": "Patricia Lee",
+        "role": "HR",
+        "seniority": "Senior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "bcf7c7db-c23b-4c7f-83c3-86f36e18fc07": {
+        "id": "bcf7c7db-c23b-4c7f-83c3-86f36e18fc07",
+        "fullName": "Rodolfo Schwarzenegger",
+        "role": "HR",
+        "seniority": "Senior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e2e52c7d-0912-4fb4-bc9a-ea737f7789e6": {
+        "id": "e2e52c7d-0912-4fb4-bc9a-ea737f7789e6",
+        "fullName": "Arnold Giovanna",
+        "role": "HR",
+        "seniority": "Senior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1c81d3ac-71de-471a-8a62-23f89493d6a8": {
+        "id": "1c81d3ac-71de-471a-8a62-23f89493d6a8",
+        "fullName": "Patricia Lee",
+        "role": "HR",
+        "seniority": "Senior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e2cadaf6-d972-402d-88b3-807fdea0ea86": {
+        "id": "e2cadaf6-d972-402d-88b3-807fdea0ea86",
+        "fullName": "Jhoseph Lee",
+        "role": "HR",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "14dc127f-5ff8-44b0-bf1f-7d8c3c6063cd": {
+        "id": "14dc127f-5ff8-44b0-bf1f-7d8c3c6063cd",
+        "fullName": "Mateo Joestar",
+        "role": "HR",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "45a709b9-a355-4958-ba29-577e48995e4a": {
+        "id": "45a709b9-a355-4958-ba29-577e48995e4a",
+        "fullName": "Arnold Halland",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "00b3b2cf-6764-43d2-b28b-1d606f4fe8be": {
+        "id": "00b3b2cf-6764-43d2-b28b-1d606f4fe8be",
+        "fullName": "Margarita Halland",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d04e7991-297a-42cd-aab9-c47f40a81c4d": {
+        "id": "d04e7991-297a-42cd-aab9-c47f40a81c4d",
+        "fullName": "Margarita Perez",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "94e48330-bce9-41e2-ab77-abf130ae61ff": {
+        "id": "94e48330-bce9-41e2-ab77-abf130ae61ff",
+        "fullName": "Patricia Lee",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8614a82e-3707-4929-af2f-14cbb397a855": {
+        "id": "8614a82e-3707-4929-af2f-14cbb397a855",
+        "fullName": "Guadalupe Perez",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "bd46d125-327e-4faf-957c-79af212fd6bd": {
+        "id": "bd46d125-327e-4faf-957c-79af212fd6bd",
+        "fullName": "Marta Schwarzenegger",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d74cf165-96c6-4288-93ca-7c0f54520b9a": {
+        "id": "d74cf165-96c6-4288-93ca-7c0f54520b9a",
+        "fullName": "Jhoseph Lee",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5495b358-8c70-44a8-a979-3372059c53c6": {
+        "id": "5495b358-8c70-44a8-a979-3372059c53c6",
+        "fullName": "Karen Lopez",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1bb3b7c1-9879-46ff-9646-6c93cb23e8ac": {
+        "id": "1bb3b7c1-9879-46ff-9646-6c93cb23e8ac",
+        "fullName": "Guadalupe Zion Zee",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "f5809244-04fa-4c6c-b629-b2c5de54ecf5": {
+        "id": "f5809244-04fa-4c6c-b629-b2c5de54ecf5",
+        "fullName": "Rodolfo Schwarzenegger",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8cf86374-b5e3-45e3-b1eb-c2fe4a330c77": {
+        "id": "8cf86374-b5e3-45e3-b1eb-c2fe4a330c77",
+        "fullName": "Rodolfo Schwarzenegger",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "bf05a593-b292-4c42-b1b1-71b3363bdfdc": {
+        "id": "bf05a593-b292-4c42-b1b1-71b3363bdfdc",
+        "fullName": "Giorno Halland",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5460e35e-d3e4-42bc-9179-8d3ecd3dcddf": {
+        "id": "5460e35e-d3e4-42bc-9179-8d3ecd3dcddf",
+        "fullName": "Marta Lopez",
+        "role": "HR",
+        "seniority": "Junior",
+        "salaryAmount": 500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6e6e9673-09d9-490a-817f-e6d53e0a8c9e": {
+        "id": "6e6e9673-09d9-490a-817f-e6d53e0a8c9e",
+        "fullName": "Marta Joestar",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "0d3139a3-784a-471d-9671-669f9409d993": {
+        "id": "0d3139a3-784a-471d-9671-669f9409d993",
+        "fullName": "Mateo Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5c55efb3-ac1a-4247-80d7-5fbb726b518b": {
+        "id": "5c55efb3-ac1a-4247-80d7-5fbb726b518b",
+        "fullName": "Patricia Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b49e3b26-3707-4f1f-b0bf-c3e1f4e648a7": {
+        "id": "b49e3b26-3707-4f1f-b0bf-c3e1f4e648a7",
+        "fullName": "Patricia Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "a85d17c1-3ff0-4f26-9579-96f631659c48": {
+        "id": "a85d17c1-3ff0-4f26-9579-96f631659c48",
+        "fullName": "Marta Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "43ff8b17-703b-471c-a15a-a6e0bbc5435a": {
+        "id": "43ff8b17-703b-471c-a15a-a6e0bbc5435a",
+        "fullName": "Marta Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "385c05a6-1feb-4f45-8437-08d67b82ef7b": {
+        "id": "385c05a6-1feb-4f45-8437-08d67b82ef7b",
+        "fullName": "Guadalupe Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9be2ead1-96ba-498c-a867-f5d9e1afa9fe": {
+        "id": "9be2ead1-96ba-498c-a867-f5d9e1afa9fe",
+        "fullName": "Guadalupe Joestar",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "724fd3f4-95aa-4414-9217-8b9cde74d363": {
+        "id": "724fd3f4-95aa-4414-9217-8b9cde74d363",
+        "fullName": "Jhoseph Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "fb605db1-55a5-4121-8d03-1b17752b576e": {
+        "id": "fb605db1-55a5-4121-8d03-1b17752b576e",
+        "fullName": "Marta Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "656635ea-a4b0-4476-9f0a-778cbbf18a9c": {
+        "id": "656635ea-a4b0-4476-9f0a-778cbbf18a9c",
+        "fullName": "Margarita Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1144356a-b4d3-4107-932a-0ec91cb8fff2": {
+        "id": "1144356a-b4d3-4107-932a-0ec91cb8fff2",
+        "fullName": "Giorno Lee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d4401c3d-9ad2-45ac-bf0e-b6d01384c649": {
+        "id": "d4401c3d-9ad2-45ac-bf0e-b6d01384c649",
+        "fullName": "Patricia Lee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b47e2b17-0560-4c41-b657-4f3e73fb2108": {
+        "id": "b47e2b17-0560-4c41-b657-4f3e73fb2108",
+        "fullName": "Jhoseph Lee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "7bda885d-fe7e-49a6-a5b9-c69a540ec2ab": {
+        "id": "7bda885d-fe7e-49a6-a5b9-c69a540ec2ab",
+        "fullName": "Margarita Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "40e1b974-a81b-4dd4-99f3-897cdeef16f4": {
+        "id": "40e1b974-a81b-4dd4-99f3-897cdeef16f4",
+        "fullName": "Patricia Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "404f17ed-e6ab-460e-bf8b-ebef489e32b9": {
+        "id": "404f17ed-e6ab-460e-bf8b-ebef489e32b9",
+        "fullName": "Jhoseph Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "05d1052d-05e1-4f7b-8a4c-725006dffae9": {
+        "id": "05d1052d-05e1-4f7b-8a4c-725006dffae9",
+        "fullName": "Rodolfo Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "81192e29-19ca-4f95-b10f-41d8c553e6e8": {
+        "id": "81192e29-19ca-4f95-b10f-41d8c553e6e8",
+        "fullName": "Mateo Lee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "923035c4-3efd-4da2-b71c-4123ca735bb7": {
+        "id": "923035c4-3efd-4da2-b71c-4123ca735bb7",
+        "fullName": "Arnold Perez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "04a41611-ba5d-423b-b4c0-e3bfa88e9dcf": {
+        "id": "04a41611-ba5d-423b-b4c0-e3bfa88e9dcf",
+        "fullName": "Mateo Lee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "fb64c05e-53af-4ac5-8171-9e395554e5e3": {
+        "id": "fb64c05e-53af-4ac5-8171-9e395554e5e3",
+        "fullName": "Marta Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "564bab68-92f5-4b63-8346-c270155e38f0": {
+        "id": "564bab68-92f5-4b63-8346-c270155e38f0",
+        "fullName": "Arnold Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "3698910e-0f1b-4dd3-aac0-0af27250f281": {
+        "id": "3698910e-0f1b-4dd3-aac0-0af27250f281",
+        "fullName": "Marta Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "cde95ecb-75a4-4127-b142-928224ded2e8": {
+        "id": "cde95ecb-75a4-4127-b142-928224ded2e8",
+        "fullName": "Margarita Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ce7ee506-e5f4-4ad1-9864-b271f8c05440": {
+        "id": "ce7ee506-e5f4-4ad1-9864-b271f8c05440",
+        "fullName": "Karen Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1d083c00-8f77-4b80-ac73-e166ec187eb0": {
+        "id": "1d083c00-8f77-4b80-ac73-e166ec187eb0",
+        "fullName": "Jhoseph Perez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "90f8f4b1-c33f-4aac-8e15-ceeb8f97f480": {
+        "id": "90f8f4b1-c33f-4aac-8e15-ceeb8f97f480",
+        "fullName": "Jack Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5ff9e242-3a09-49ca-978f-895cb7fc2ca9": {
+        "id": "5ff9e242-3a09-49ca-978f-895cb7fc2ca9",
+        "fullName": "Mateo Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "cf2e0ec9-fdd9-4e4a-9cb7-c89465a031cc": {
+        "id": "cf2e0ec9-fdd9-4e4a-9cb7-c89465a031cc",
+        "fullName": "Guadalupe Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "64d9614d-461b-4419-b894-c227ee598d00": {
+        "id": "64d9614d-461b-4419-b894-c227ee598d00",
+        "fullName": "Patricia Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c51670af-d72b-476b-b0e3-17aaf81e3c31": {
+        "id": "c51670af-d72b-476b-b0e3-17aaf81e3c31",
+        "fullName": "Marta Perez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "660a6d65-480b-4181-8ed6-325f9147ebb6": {
+        "id": "660a6d65-480b-4181-8ed6-325f9147ebb6",
+        "fullName": "Marta Lee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6fcb5c55-d1b8-48c7-a2e2-605497726654": {
+        "id": "6fcb5c55-d1b8-48c7-a2e2-605497726654",
+        "fullName": "Giorno Joestar",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "7c41cc11-b5dd-4074-800d-4d58f639128f": {
+        "id": "7c41cc11-b5dd-4074-800d-4d58f639128f",
+        "fullName": "Giorno Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "443896f9-ff14-4ed8-83f2-16247e7c81a2": {
+        "id": "443896f9-ff14-4ed8-83f2-16247e7c81a2",
+        "fullName": "Jhoseph Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "7a8fa613-ff90-4a83-9c2a-8bec445671dc": {
+        "id": "7a8fa613-ff90-4a83-9c2a-8bec445671dc",
+        "fullName": "Jhoseph Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "59a6e2d4-307d-4c4c-bcd3-72aad932aa18": {
+        "id": "59a6e2d4-307d-4c4c-bcd3-72aad932aa18",
+        "fullName": "Jack Joestar",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "18dabe20-e9d3-4fc5-aa64-f1467c045869": {
+        "id": "18dabe20-e9d3-4fc5-aa64-f1467c045869",
+        "fullName": "Rodolfo Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "95d2d699-74dc-4771-a4bc-d4152af02568": {
+        "id": "95d2d699-74dc-4771-a4bc-d4152af02568",
+        "fullName": "Guadalupe Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "37c4db86-440a-4d28-8458-d538861c4a46": {
+        "id": "37c4db86-440a-4d28-8458-d538861c4a46",
+        "fullName": "Marta Lopez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "f8aa1be8-3f1d-4794-97d8-e544d43d42f8": {
+        "id": "f8aa1be8-3f1d-4794-97d8-e544d43d42f8",
+        "fullName": "Patricia Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "15402467-529b-4c36-87f2-9b525a596174": {
+        "id": "15402467-529b-4c36-87f2-9b525a596174",
+        "fullName": "Margarita Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1315be65-c7e1-4f90-bac6-41a370599215": {
+        "id": "1315be65-c7e1-4f90-bac6-41a370599215",
+        "fullName": "Mateo Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "af16e0a0-8be5-41da-9af1-01c45bb9c276": {
+        "id": "af16e0a0-8be5-41da-9af1-01c45bb9c276",
+        "fullName": "Jack Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5d3ef091-1895-45cf-bc16-94130026d585": {
+        "id": "5d3ef091-1895-45cf-bc16-94130026d585",
+        "fullName": "Jhoseph Lee",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b9603eca-250a-430c-85a1-34a80066cff3": {
+        "id": "b9603eca-250a-430c-85a1-34a80066cff3",
+        "fullName": "Arnold Joestar",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "222a9c4c-ddd2-4382-8bf7-794cce23adcd": {
+        "id": "222a9c4c-ddd2-4382-8bf7-794cce23adcd",
+        "fullName": "Rodolfo Perez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "7756d4df-bc35-4a71-9537-cb164e3e96ba": {
+        "id": "7756d4df-bc35-4a71-9537-cb164e3e96ba",
+        "fullName": "Margarita Halland",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "27dfd9f7-bf35-4786-a85a-da1276966689": {
+        "id": "27dfd9f7-bf35-4786-a85a-da1276966689",
+        "fullName": "Margarita Perez",
+        "role": "ENGINEER",
+        "seniority": "Senior",
+        "salaryAmount": 5000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "0cbe4360-5879-48b3-9a37-090e433a4ea4": {
+        "id": "0cbe4360-5879-48b3-9a37-090e433a4ea4",
+        "fullName": "Arnold Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "a6b6f2ff-926a-4154-94af-45f89feaffe0": {
+        "id": "a6b6f2ff-926a-4154-94af-45f89feaffe0",
+        "fullName": "Karen Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "20015f8f-f946-4146-98b7-2f5670abe1b5": {
+        "id": "20015f8f-f946-4146-98b7-2f5670abe1b5",
+        "fullName": "Giorno Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "410e3388-dcbe-424e-9ba2-487219d16cf8": {
+        "id": "410e3388-dcbe-424e-9ba2-487219d16cf8",
+        "fullName": "Patricia Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "619ac75e-7396-44ad-a665-fde9d275619f": {
+        "id": "619ac75e-7396-44ad-a665-fde9d275619f",
+        "fullName": "Karen Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "f40dc52e-fdb3-4127-a189-40b5422149fd": {
+        "id": "f40dc52e-fdb3-4127-a189-40b5422149fd",
+        "fullName": "Jhoseph Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e602463d-4133-4307-9aea-a639c365fa0c": {
+        "id": "e602463d-4133-4307-9aea-a639c365fa0c",
+        "fullName": "Karen Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c959c6be-89f9-4f0f-a4b7-1bba4a641b1b": {
+        "id": "c959c6be-89f9-4f0f-a4b7-1bba4a641b1b",
+        "fullName": "Rodolfo Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "392ca844-1a1d-494a-8978-7313bd1aeb7b": {
+        "id": "392ca844-1a1d-494a-8978-7313bd1aeb7b",
+        "fullName": "Arnold Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "84a1e13c-d6c0-453c-9112-c2bfcb7baef6": {
+        "id": "84a1e13c-d6c0-453c-9112-c2bfcb7baef6",
+        "fullName": "Giorno Halland",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "86b26934-56ad-4fb1-8d81-0631714270ee": {
+        "id": "86b26934-56ad-4fb1-8d81-0631714270ee",
+        "fullName": "Mateo Lopez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6d1f53c8-0982-4868-ba82-dfe63bba40c0": {
+        "id": "6d1f53c8-0982-4868-ba82-dfe63bba40c0",
+        "fullName": "Guadalupe Lopez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "4452ae76-d053-442a-a789-529def701791": {
+        "id": "4452ae76-d053-442a-a789-529def701791",
+        "fullName": "Marta Halland",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c679aa55-6284-4cae-bdde-2fed3ec95418": {
+        "id": "c679aa55-6284-4cae-bdde-2fed3ec95418",
+        "fullName": "Mateo Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "37a4c94e-51bf-4e58-9833-2d567af644ce": {
+        "id": "37a4c94e-51bf-4e58-9833-2d567af644ce",
+        "fullName": "Jack Lopez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "69debec2-446a-45a2-ae25-324edda44260": {
+        "id": "69debec2-446a-45a2-ae25-324edda44260",
+        "fullName": "Arnold Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d34ca743-447d-4cf6-9182-6b2ad94ae035": {
+        "id": "d34ca743-447d-4cf6-9182-6b2ad94ae035",
+        "fullName": "Marta Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8a67ee20-c5b5-4ab0-9aaa-a9fad5e218e1": {
+        "id": "8a67ee20-c5b5-4ab0-9aaa-a9fad5e218e1",
+        "fullName": "Jack Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "309f8add-9c82-42c4-9b4d-c1b109ceec1b": {
+        "id": "309f8add-9c82-42c4-9b4d-c1b109ceec1b",
+        "fullName": "Jack Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8a953307-1c84-4322-bb12-17bc2e1393d3": {
+        "id": "8a953307-1c84-4322-bb12-17bc2e1393d3",
+        "fullName": "Patricia Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8c3dba7a-234b-4c89-8d40-4a6113a68ea4": {
+        "id": "8c3dba7a-234b-4c89-8d40-4a6113a68ea4",
+        "fullName": "Rodolfo Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ce3b53cb-b0ae-4ce5-a925-0b0a588a28dc": {
+        "id": "ce3b53cb-b0ae-4ce5-a925-0b0a588a28dc",
+        "fullName": "Giorno Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "2f046751-0ec6-46af-b187-fa40c8fa4b0f": {
+        "id": "2f046751-0ec6-46af-b187-fa40c8fa4b0f",
+        "fullName": "Karen Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c7c07aee-4761-474e-9485-362530ff2725": {
+        "id": "c7c07aee-4761-474e-9485-362530ff2725",
+        "fullName": "Marta Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "38ca7c5b-fd0b-4484-94bf-7bd7b8384cc8": {
+        "id": "38ca7c5b-fd0b-4484-94bf-7bd7b8384cc8",
+        "fullName": "Margarita Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "275e27d0-9ffa-4f61-8291-4879d4ec4b9f": {
+        "id": "275e27d0-9ffa-4f61-8291-4879d4ec4b9f",
+        "fullName": "Patricia Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "44e02d29-60e7-4880-a6a7-14f7e1894dab": {
+        "id": "44e02d29-60e7-4880-a6a7-14f7e1894dab",
+        "fullName": "Patricia Lopez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "2270cece-2eca-49c2-a8d8-03be013c3802": {
+        "id": "2270cece-2eca-49c2-a8d8-03be013c3802",
+        "fullName": "Karen Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "67987a1d-2dcf-476f-a427-70dbbfdac7ae": {
+        "id": "67987a1d-2dcf-476f-a427-70dbbfdac7ae",
+        "fullName": "Arnold Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "195340fa-f548-4741-ab02-374cfa6e7073": {
+        "id": "195340fa-f548-4741-ab02-374cfa6e7073",
+        "fullName": "Rodolfo Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "4497261a-9037-48ad-9cae-7063a5f20149": {
+        "id": "4497261a-9037-48ad-9cae-7063a5f20149",
+        "fullName": "Guadalupe Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "964849ea-b402-44d1-8f90-c2f3f103f078": {
+        "id": "964849ea-b402-44d1-8f90-c2f3f103f078",
+        "fullName": "Jhoseph Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e0e2fe9f-5eaf-451b-8cee-dbb5e50380dc": {
+        "id": "e0e2fe9f-5eaf-451b-8cee-dbb5e50380dc",
+        "fullName": "Arnold Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "51ce8f9d-8320-4e8a-b31f-e48f29e3ac22": {
+        "id": "51ce8f9d-8320-4e8a-b31f-e48f29e3ac22",
+        "fullName": "Margarita Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "3d6ef5a7-7285-4a08-b13c-1c2e6e3de0ca": {
+        "id": "3d6ef5a7-7285-4a08-b13c-1c2e6e3de0ca",
+        "fullName": "Marta Lopez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "26f9794e-4d89-4677-b7c8-3de107038d0d": {
+        "id": "26f9794e-4d89-4677-b7c8-3de107038d0d",
+        "fullName": "Giorno Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c6ff966c-d281-4652-8b18-67ae5de23a91": {
+        "id": "c6ff966c-d281-4652-8b18-67ae5de23a91",
+        "fullName": "Rodolfo Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "0ba6db5c-a22e-4cb3-8ade-e6cf56c64644": {
+        "id": "0ba6db5c-a22e-4cb3-8ade-e6cf56c64644",
+        "fullName": "Jack Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "314eb8b8-5fc6-4981-b84d-4676fb962062": {
+        "id": "314eb8b8-5fc6-4981-b84d-4676fb962062",
+        "fullName": "Jhoseph Halland",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c52fbe5b-e09b-4730-b5c5-c8033eaede99": {
+        "id": "c52fbe5b-e09b-4730-b5c5-c8033eaede99",
+        "fullName": "Rodolfo Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "7608b987-585a-4b80-aa4c-84e7e25ba955": {
+        "id": "7608b987-585a-4b80-aa4c-84e7e25ba955",
+        "fullName": "Guadalupe Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "db55b186-3a65-4f0d-8560-d4b56e82b552": {
+        "id": "db55b186-3a65-4f0d-8560-d4b56e82b552",
+        "fullName": "Margarita Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "0d3c06e0-2109-4f2a-a232-9f9890340339": {
+        "id": "0d3c06e0-2109-4f2a-a232-9f9890340339",
+        "fullName": "Marta Halland",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "26971727-7c98-4ea1-9ba5-ea5a501a8ec4": {
+        "id": "26971727-7c98-4ea1-9ba5-ea5a501a8ec4",
+        "fullName": "Mateo Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6b538c04-04dc-4dc5-a668-aec5a421a2d2": {
+        "id": "6b538c04-04dc-4dc5-a668-aec5a421a2d2",
+        "fullName": "Mateo Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "561614e6-08cd-4800-a82f-9521219cf263": {
+        "id": "561614e6-08cd-4800-a82f-9521219cf263",
+        "fullName": "Margarita Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "11e7e154-58ad-4c45-8a41-4f9a1d8d22c1": {
+        "id": "11e7e154-58ad-4c45-8a41-4f9a1d8d22c1",
+        "fullName": "Jhoseph Lopez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "047edc32-8468-41cb-8dd6-83e58807bba1": {
+        "id": "047edc32-8468-41cb-8dd6-83e58807bba1",
+        "fullName": "Margarita Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8d833965-37cb-4d4e-8706-c406ac7dfb72": {
+        "id": "8d833965-37cb-4d4e-8706-c406ac7dfb72",
+        "fullName": "Karen Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6b88e919-ab01-460a-9dae-0813c9f63c99": {
+        "id": "6b88e919-ab01-460a-9dae-0813c9f63c99",
+        "fullName": "Margarita Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5ce99ada-495b-4f63-8e51-6d9a1480d805": {
+        "id": "5ce99ada-495b-4f63-8e51-6d9a1480d805",
+        "fullName": "Arnold Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "02f553ea-b7c7-41d8-ace3-bbe3885a3c44": {
+        "id": "02f553ea-b7c7-41d8-ace3-bbe3885a3c44",
+        "fullName": "Marta Halland",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9a6d0c7e-167a-46dc-8e28-a78d5708ae35": {
+        "id": "9a6d0c7e-167a-46dc-8e28-a78d5708ae35",
+        "fullName": "Karen Zion Zee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8d70e937-75c6-41e9-a744-c3193d9f75aa": {
+        "id": "8d70e937-75c6-41e9-a744-c3193d9f75aa",
+        "fullName": "Rodolfo Lopez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "cabd2e01-8144-4c0d-ba20-672e53c76869": {
+        "id": "cabd2e01-8144-4c0d-ba20-672e53c76869",
+        "fullName": "Karen Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "4e6fb4a6-e339-4670-9b62-052b0a6865fd": {
+        "id": "4e6fb4a6-e339-4670-9b62-052b0a6865fd",
+        "fullName": "Mateo Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "dffab277-ea3f-487f-a923-ec7d8fa47e3d": {
+        "id": "dffab277-ea3f-487f-a923-ec7d8fa47e3d",
+        "fullName": "Giorno Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "2de28265-3219-422b-a742-0927549c5dcf": {
+        "id": "2de28265-3219-422b-a742-0927549c5dcf",
+        "fullName": "Rodolfo Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "67d1b58e-ae41-4dca-919c-616b5dc078d1": {
+        "id": "67d1b58e-ae41-4dca-919c-616b5dc078d1",
+        "fullName": "Margarita Halland",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b4e4dc1e-17d3-4a22-a111-90f366edaf4b": {
+        "id": "b4e4dc1e-17d3-4a22-a111-90f366edaf4b",
+        "fullName": "Margarita Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1eee3cf1-ec50-4c85-8bfb-9156713618f4": {
+        "id": "1eee3cf1-ec50-4c85-8bfb-9156713618f4",
+        "fullName": "Giorno Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "824a3068-bab8-4d02-bbcb-3c921c65ff53": {
+        "id": "824a3068-bab8-4d02-bbcb-3c921c65ff53",
+        "fullName": "Patricia Halland",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ecf13978-0d4a-49d0-86b1-1e9ca04b6b4c": {
+        "id": "ecf13978-0d4a-49d0-86b1-1e9ca04b6b4c",
+        "fullName": "Jack Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "80de1c68-7770-4c4d-aecd-f0ad67396404": {
+        "id": "80de1c68-7770-4c4d-aecd-f0ad67396404",
+        "fullName": "Guadalupe Joestar",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9507b2f6-aabc-4d53-a587-9658fb518a62": {
+        "id": "9507b2f6-aabc-4d53-a587-9658fb518a62",
+        "fullName": "Arnold Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "139aef2d-9900-4666-aef6-48e482244e25": {
+        "id": "139aef2d-9900-4666-aef6-48e482244e25",
+        "fullName": "Patricia Lee",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "a318b199-823c-4732-8f2f-8d6932486fc1": {
+        "id": "a318b199-823c-4732-8f2f-8d6932486fc1",
+        "fullName": "Margarita Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5cca970d-723d-4aaf-9811-48419ae5a91f": {
+        "id": "5cca970d-723d-4aaf-9811-48419ae5a91f",
+        "fullName": "Karen Perez",
+        "role": "ENGINEER",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 3000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "59e06e94-5909-4fb0-8fb6-4009018a7274": {
+        "id": "59e06e94-5909-4fb0-8fb6-4009018a7274",
+        "fullName": "Mateo Lopez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9dc02bc9-ca08-4532-bcb9-93e2ba2bd717": {
+        "id": "9dc02bc9-ca08-4532-bcb9-93e2ba2bd717",
+        "fullName": "Marta Perez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5c24692c-0856-403a-b497-1c33fd7c4563": {
+        "id": "5c24692c-0856-403a-b497-1c33fd7c4563",
+        "fullName": "Mateo Perez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "4c990354-7900-4bc6-b111-852187dbe965": {
+        "id": "4c990354-7900-4bc6-b111-852187dbe965",
+        "fullName": "Karen Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c794179b-0824-4f3f-9bea-a813f0d2ae10": {
+        "id": "c794179b-0824-4f3f-9bea-a813f0d2ae10",
+        "fullName": "Margarita Perez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "22cbe465-9654-4d7b-93f3-bc1f2ec62b37": {
+        "id": "22cbe465-9654-4d7b-93f3-bc1f2ec62b37",
+        "fullName": "Marta Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ee018da7-8305-4f52-98f3-b059f202cfd4": {
+        "id": "ee018da7-8305-4f52-98f3-b059f202cfd4",
+        "fullName": "Marta Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b63a53e9-0d98-41a5-9f77-43a6e1b71520": {
+        "id": "b63a53e9-0d98-41a5-9f77-43a6e1b71520",
+        "fullName": "Marta Lopez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "f392c532-8e7f-4695-9c1f-ecc2134ab176": {
+        "id": "f392c532-8e7f-4695-9c1f-ecc2134ab176",
+        "fullName": "Marta Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "40f7b6c0-cc7a-44cd-9654-aab8f242ac41": {
+        "id": "40f7b6c0-cc7a-44cd-9654-aab8f242ac41",
+        "fullName": "Jack Lopez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1bb935de-6d14-4c21-890f-16f047bbc4c5": {
+        "id": "1bb935de-6d14-4c21-890f-16f047bbc4c5",
+        "fullName": "Jack Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b953e4e7-cf94-41b5-a362-60e6ab5e59c5": {
+        "id": "b953e4e7-cf94-41b5-a362-60e6ab5e59c5",
+        "fullName": "Rodolfo Joestar",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "3a77a597-c4eb-4151-8a9d-0ff8ecf5e0b1": {
+        "id": "3a77a597-c4eb-4151-8a9d-0ff8ecf5e0b1",
+        "fullName": "Marta Lopez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "a9e5adcd-4a45-417e-b7ae-a1f6b20a0eee": {
+        "id": "a9e5adcd-4a45-417e-b7ae-a1f6b20a0eee",
+        "fullName": "Marta Perez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d7d95477-4195-4171-b44b-105d8f915f15": {
+        "id": "d7d95477-4195-4171-b44b-105d8f915f15",
+        "fullName": "Karen Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "35ddadcc-4a26-4462-813d-b3a2010707d7": {
+        "id": "35ddadcc-4a26-4462-813d-b3a2010707d7",
+        "fullName": "Guadalupe Lopez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "135bfea5-c9ac-4328-8d9f-06b66cb11cd4": {
+        "id": "135bfea5-c9ac-4328-8d9f-06b66cb11cd4",
+        "fullName": "Jack Joestar",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "02489419-c55d-447f-ac9c-7a96967cf24d": {
+        "id": "02489419-c55d-447f-ac9c-7a96967cf24d",
+        "fullName": "Margarita Halland",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "92ead53c-934d-461b-acbb-5ac79b13a9f2": {
+        "id": "92ead53c-934d-461b-acbb-5ac79b13a9f2",
+        "fullName": "Jhoseph Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "99929b76-2c89-4a31-9066-90993c66fdde": {
+        "id": "99929b76-2c89-4a31-9066-90993c66fdde",
+        "fullName": "Patricia Lopez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ae76fc8d-2bab-460c-9ba5-68bcfcb346e2": {
+        "id": "ae76fc8d-2bab-460c-9ba5-68bcfcb346e2",
+        "fullName": "Patricia Halland",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1cb9f7cd-67ae-4890-9fd1-6ca9ebd3baf9": {
+        "id": "1cb9f7cd-67ae-4890-9fd1-6ca9ebd3baf9",
+        "fullName": "Karen Joestar",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "945e07b0-caee-49be-af6d-3d1020a9e8bc": {
+        "id": "945e07b0-caee-49be-af6d-3d1020a9e8bc",
+        "fullName": "Karen Giovanna",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "42c2446f-fc15-43d3-9387-32319a3b10b9": {
+        "id": "42c2446f-fc15-43d3-9387-32319a3b10b9",
+        "fullName": "Patricia Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "62b4b10f-fffc-4e86-bb87-fb7b13517b8d": {
+        "id": "62b4b10f-fffc-4e86-bb87-fb7b13517b8d",
+        "fullName": "Giorno Lee",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6a59b065-c537-4dca-8540-c6469f827896": {
+        "id": "6a59b065-c537-4dca-8540-c6469f827896",
+        "fullName": "Karen Schwarzenegger",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c1a16f68-80df-4f87-9d7e-4028834bb30b": {
+        "id": "c1a16f68-80df-4f87-9d7e-4028834bb30b",
+        "fullName": "Patricia Halland",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "eccaaa11-c0b0-48a7-b85b-eaf686a62fbc": {
+        "id": "eccaaa11-c0b0-48a7-b85b-eaf686a62fbc",
+        "fullName": "Margarita Lopez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "24772657-39a1-4577-8528-b867f2c6a94c": {
+        "id": "24772657-39a1-4577-8528-b867f2c6a94c",
+        "fullName": "Karen Joestar",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "0407a9ee-bad6-4f17-b656-b7f971424781": {
+        "id": "0407a9ee-bad6-4f17-b656-b7f971424781",
+        "fullName": "Rodolfo Perez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "a45d27ab-6194-434b-a3ff-bf9656336ef4": {
+        "id": "a45d27ab-6194-434b-a3ff-bf9656336ef4",
+        "fullName": "Jack Halland",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "03e649b8-bb17-4b01-9e7b-64fa196374aa": {
+        "id": "03e649b8-bb17-4b01-9e7b-64fa196374aa",
+        "fullName": "Giorno Perez",
+        "role": "ENGINEER",
+        "seniority": "Junior",
+        "salaryAmount": 1500.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8c2c6753-4706-4951-9783-2b719bb0aacd": {
+        "id": "8c2c6753-4706-4951-9783-2b719bb0aacd",
+        "fullName": "Jhoseph Lee",
+        "role": "ARTIST",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9153fe64-c3de-4f44-adc9-ec3c65519e89": {
+        "id": "9153fe64-c3de-4f44-adc9-ec3c65519e89",
+        "fullName": "Marta Joestar",
+        "role": "ARTIST",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "11e89e4f-c2b5-49c5-84f8-f16017fb0be1": {
+        "id": "11e89e4f-c2b5-49c5-84f8-f16017fb0be1",
+        "fullName": "Margarita Giovanna",
+        "role": "ARTIST",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d5409631-45b7-4a10-aeba-481a71194607": {
+        "id": "d5409631-45b7-4a10-aeba-481a71194607",
+        "fullName": "Giorno Schwarzenegger",
+        "role": "ARTIST",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b8fe2a9b-bd76-48fa-a95f-dac113711b4f": {
+        "id": "b8fe2a9b-bd76-48fa-a95f-dac113711b4f",
+        "fullName": "Rodolfo Lopez",
+        "role": "ARTIST",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6f1f4ee5-767f-494b-ad4b-c0fee60931ab": {
+        "id": "6f1f4ee5-767f-494b-ad4b-c0fee60931ab",
+        "fullName": "Patricia Zion Zee",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1d1e3c9a-3ac1-433d-9806-cfe256294def": {
+        "id": "1d1e3c9a-3ac1-433d-9806-cfe256294def",
+        "fullName": "Mateo Lopez",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "08f67d20-7530-4169-916f-946fbb541f50": {
+        "id": "08f67d20-7530-4169-916f-946fbb541f50",
+        "fullName": "Patricia Halland",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "77d21b68-6d52-41cc-9d7e-d0671e6c4f71": {
+        "id": "77d21b68-6d52-41cc-9d7e-d0671e6c4f71",
+        "fullName": "Patricia Giovanna",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "3a58f57d-b8ae-4738-b398-918571748dfb": {
+        "id": "3a58f57d-b8ae-4738-b398-918571748dfb",
+        "fullName": "Guadalupe Joestar",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "7a37ca19-87e9-434b-a10e-575198501aa0": {
+        "id": "7a37ca19-87e9-434b-a10e-575198501aa0",
+        "fullName": "Jhoseph Lopez",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "16fa7397-e535-44d1-82fb-177e586ce46b": {
+        "id": "16fa7397-e535-44d1-82fb-177e586ce46b",
+        "fullName": "Patricia Halland",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "26a0fce1-b76e-4e5d-81b6-d571437387ee": {
+        "id": "26a0fce1-b76e-4e5d-81b6-d571437387ee",
+        "fullName": "Arnold Halland",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "01300428-9662-48ed-ad6a-e8d8f4bb2cd4": {
+        "id": "01300428-9662-48ed-ad6a-e8d8f4bb2cd4",
+        "fullName": "Guadalupe Halland",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "78465718-7423-45eb-9a32-6ed090ba383f": {
+        "id": "78465718-7423-45eb-9a32-6ed090ba383f",
+        "fullName": "Arnold Zion Zee",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e2d6820d-a01c-4dbb-b44a-ca3789d2c776": {
+        "id": "e2d6820d-a01c-4dbb-b44a-ca3789d2c776",
+        "fullName": "Karen Schwarzenegger",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c2da9ecc-9c8c-4833-abab-514ff71e3de4": {
+        "id": "c2da9ecc-9c8c-4833-abab-514ff71e3de4",
+        "fullName": "Marta Halland",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "61474c1e-161b-42e7-b141-4eaf3b1cd6cd": {
+        "id": "61474c1e-161b-42e7-b141-4eaf3b1cd6cd",
+        "fullName": "Mateo Joestar",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ca6dbfef-ccc0-4c58-b640-3506d48d96f9": {
+        "id": "ca6dbfef-ccc0-4c58-b640-3506d48d96f9",
+        "fullName": "Jack Lopez",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ef75bdf6-4a73-45e1-b36f-9b5969280692": {
+        "id": "ef75bdf6-4a73-45e1-b36f-9b5969280692",
+        "fullName": "Margarita Lopez",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9cf4fcc4-22e2-4b00-a88d-ec732f823ed3": {
+        "id": "9cf4fcc4-22e2-4b00-a88d-ec732f823ed3",
+        "fullName": "Jack Schwarzenegger",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "01c74699-1469-4af5-80f1-f27ed8fd9c80": {
+        "id": "01c74699-1469-4af5-80f1-f27ed8fd9c80",
+        "fullName": "Rodolfo Joestar",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "014a324b-ca7c-4a05-b5db-991b90c714d7": {
+        "id": "014a324b-ca7c-4a05-b5db-991b90c714d7",
+        "fullName": "Giorno Joestar",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "3c09b187-6b04-4aa6-9e1a-41a8ebea4ff0": {
+        "id": "3c09b187-6b04-4aa6-9e1a-41a8ebea4ff0",
+        "fullName": "Guadalupe Halland",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ed3d94a4-baa5-4c12-83d2-1afe4afb06ae": {
+        "id": "ed3d94a4-baa5-4c12-83d2-1afe4afb06ae",
+        "fullName": "Marta Halland",
+        "role": "ARTIST",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 1200.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e03279fd-7df6-4ba2-ba23-384debe1e008": {
+        "id": "e03279fd-7df6-4ba2-ba23-384debe1e008",
+        "fullName": "Rodolfo Lee",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "464bc0a2-b3b7-412b-860b-45400e65b08c": {
+        "id": "464bc0a2-b3b7-412b-860b-45400e65b08c",
+        "fullName": "Karen Schwarzenegger",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "0f6d4941-6a7b-4eda-9842-046d4178fcb7": {
+        "id": "0f6d4941-6a7b-4eda-9842-046d4178fcb7",
+        "fullName": "Jhoseph Giovanna",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "26460561-8d1f-4404-b7dd-039638aaf423": {
+        "id": "26460561-8d1f-4404-b7dd-039638aaf423",
+        "fullName": "Margarita Giovanna",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "94060589-8748-40df-8469-82ed02ed99ad": {
+        "id": "94060589-8748-40df-8469-82ed02ed99ad",
+        "fullName": "Margarita Lopez",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c8de914e-17d0-4c8e-9213-3f39b610e877": {
+        "id": "c8de914e-17d0-4c8e-9213-3f39b610e877",
+        "fullName": "Jhoseph Lee",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9b119609-1476-4333-9615-949d92825777": {
+        "id": "9b119609-1476-4333-9615-949d92825777",
+        "fullName": "Rodolfo Schwarzenegger",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "aa164296-c112-4281-9158-92190e1ac93c": {
+        "id": "aa164296-c112-4281-9158-92190e1ac93c",
+        "fullName": "Rodolfo Halland",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "967cdcf0-2353-4ceb-b7f9-d03f6cc02750": {
+        "id": "967cdcf0-2353-4ceb-b7f9-d03f6cc02750",
+        "fullName": "Margarita Zion Zee",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "cd6895f4-f5ff-4802-9822-adc4f1c73709": {
+        "id": "cd6895f4-f5ff-4802-9822-adc4f1c73709",
+        "fullName": "Margarita Joestar",
+        "role": "DESIGNER",
+        "seniority": "Senior",
+        "salaryAmount": 2000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "fa100415-2b64-444f-9d41-f3801c7a278c": {
+        "id": "fa100415-2b64-444f-9d41-f3801c7a278c",
+        "fullName": "Rodolfo Joestar",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "0d638f3d-5b93-4b32-b0ee-4337d76c4da4": {
+        "id": "0d638f3d-5b93-4b32-b0ee-4337d76c4da4",
+        "fullName": "Jhoseph Schwarzenegger",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "422143b0-cd1b-49b9-9ef2-015e7bd98f01": {
+        "id": "422143b0-cd1b-49b9-9ef2-015e7bd98f01",
+        "fullName": "Guadalupe Lopez",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "84a8927f-b433-4490-a082-0749ac0165b4": {
+        "id": "84a8927f-b433-4490-a082-0749ac0165b4",
+        "fullName": "Marta Lopez",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e1305f3d-e1bb-4a3a-8c47-4f91a7779c09": {
+        "id": "e1305f3d-e1bb-4a3a-8c47-4f91a7779c09",
+        "fullName": "Patricia Lopez",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "290d7aa0-fe4b-49fe-8ca6-04152c4de698": {
+        "id": "290d7aa0-fe4b-49fe-8ca6-04152c4de698",
+        "fullName": "Marta Joestar",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ff522dda-2875-413d-9637-48141aef9e99": {
+        "id": "ff522dda-2875-413d-9637-48141aef9e99",
+        "fullName": "Guadalupe Schwarzenegger",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "9d6db414-067a-469d-8db0-2a266b858b0e": {
+        "id": "9d6db414-067a-469d-8db0-2a266b858b0e",
+        "fullName": "Giorno Joestar",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "efd0fa4e-7ccb-41f0-ba0b-a4d819c9cb36": {
+        "id": "efd0fa4e-7ccb-41f0-ba0b-a4d819c9cb36",
+        "fullName": "Jhoseph Schwarzenegger",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c555f2b1-7856-438e-9fb9-41772d600067": {
+        "id": "c555f2b1-7856-438e-9fb9-41772d600067",
+        "fullName": "Patricia Joestar",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "28e1c999-ba6c-44b0-b2d0-4b2522b60cc7": {
+        "id": "28e1c999-ba6c-44b0-b2d0-4b2522b60cc7",
+        "fullName": "Rodolfo Joestar",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "56de2d04-6d3f-41a0-829b-7dae1e4f570f": {
+        "id": "56de2d04-6d3f-41a0-829b-7dae1e4f570f",
+        "fullName": "Rodolfo Halland",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "b93c4ba7-af04-49de-baf1-00cee002e81c": {
+        "id": "b93c4ba7-af04-49de-baf1-00cee002e81c",
+        "fullName": "Giorno Giovanna",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "2e101ec8-e6fc-427b-84ed-cdf03fca5d5e": {
+        "id": "2e101ec8-e6fc-427b-84ed-cdf03fca5d5e",
+        "fullName": "Arnold Zion Zee",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "23167cc6-5f88-4866-b4a2-b146b9b12429": {
+        "id": "23167cc6-5f88-4866-b4a2-b146b9b12429",
+        "fullName": "Guadalupe Lee",
+        "role": "DESIGNER",
+        "seniority": "Junior",
+        "salaryAmount": 800.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ff01d863-433e-44fe-aad2-37950cc55501": {
+        "id": "ff01d863-433e-44fe-aad2-37950cc55501",
+        "fullName": "Rodolfo Lee",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "25c6659f-03e6-454c-9bc2-ebe29036b859": {
+        "id": "25c6659f-03e6-454c-9bc2-ebe29036b859",
+        "fullName": "Karen Joestar",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "006a338e-109c-4140-b877-7eb4c4e4ed67": {
+        "id": "006a338e-109c-4140-b877-7eb4c4e4ed67",
+        "fullName": "Mateo Perez",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "3f3410ec-4f83-478c-a50c-06dc9616336e": {
+        "id": "3f3410ec-4f83-478c-a50c-06dc9616336e",
+        "fullName": "Rodolfo Giovanna",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "8490913e-c485-466b-a585-a05c91ef8952": {
+        "id": "8490913e-c485-466b-a585-a05c91ef8952",
+        "fullName": "Margarita Giovanna",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "64c7357e-adb7-4b61-bdd7-21a79e109cde": {
+        "id": "64c7357e-adb7-4b61-bdd7-21a79e109cde",
+        "fullName": "Giorno Halland",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1c674efe-5c11-4c00-8fc2-ceb875d46933": {
+        "id": "1c674efe-5c11-4c00-8fc2-ceb875d46933",
+        "fullName": "Rodolfo Halland",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "62ea4f70-be5b-48e4-bc58-f256e789174d": {
+        "id": "62ea4f70-be5b-48e4-bc58-f256e789174d",
+        "fullName": "Rodolfo Halland",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ce2d0ea7-0263-4362-9303-2ad078b84952": {
+        "id": "ce2d0ea7-0263-4362-9303-2ad078b84952",
+        "fullName": "Rodolfo Zion Zee",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "4039181b-1156-4033-9d39-93d8215142b7": {
+        "id": "4039181b-1156-4033-9d39-93d8215142b7",
+        "fullName": "Marta Perez",
+        "role": "PM",
+        "seniority": "Senior",
+        "salaryAmount": 4000.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "ceb50f65-22a6-4e4d-8196-9bcc31e1e818": {
+        "id": "ceb50f65-22a6-4e4d-8196-9bcc31e1e818",
+        "fullName": "Patricia Perez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "cabccf51-9a49-4958-9cb2-f96db297b3d9": {
+        "id": "cabccf51-9a49-4958-9cb2-f96db297b3d9",
+        "fullName": "Guadalupe Zion Zee",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "88c2ac5c-4b8c-46da-9c10-a347b7b04748": {
+        "id": "88c2ac5c-4b8c-46da-9c10-a347b7b04748",
+        "fullName": "Guadalupe Perez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "99df6b2c-b285-4619-9ba2-12219d40009c": {
+        "id": "99df6b2c-b285-4619-9ba2-12219d40009c",
+        "fullName": "Guadalupe Joestar",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "6b3f0256-867e-42c1-bfcc-ac43ea4552f9": {
+        "id": "6b3f0256-867e-42c1-bfcc-ac43ea4552f9",
+        "fullName": "Marta Perez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e5a9144d-06fe-4f92-a439-717b6aedd49c": {
+        "id": "e5a9144d-06fe-4f92-a439-717b6aedd49c",
+        "fullName": "Marta Perez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "bed53e72-8c52-4706-b3ba-c88bdbd94334": {
+        "id": "bed53e72-8c52-4706-b3ba-c88bdbd94334",
+        "fullName": "Mateo Lopez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5d80f43f-0452-4040-bfc6-8047cd0946e2": {
+        "id": "5d80f43f-0452-4040-bfc6-8047cd0946e2",
+        "fullName": "Karen Joestar",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d0f61753-4fb2-436e-bd43-250df1c89187": {
+        "id": "d0f61753-4fb2-436e-bd43-250df1c89187",
+        "fullName": "Patricia Halland",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "a6b022b1-10e2-4dc9-a2f9-ce76c27823ff": {
+        "id": "a6b022b1-10e2-4dc9-a2f9-ce76c27823ff",
+        "fullName": "Patricia Perez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "fbb43899-2b26-4981-8ef9-3bdd546964c2": {
+        "id": "fbb43899-2b26-4981-8ef9-3bdd546964c2",
+        "fullName": "Guadalupe Perez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "c8556cde-5bb4-4a99-8c63-1458313e5cc4": {
+        "id": "c8556cde-5bb4-4a99-8c63-1458313e5cc4",
+        "fullName": "Guadalupe Halland",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "1a797487-57b9-4a80-a7a9-4e94556c08a8": {
+        "id": "1a797487-57b9-4a80-a7a9-4e94556c08a8",
+        "fullName": "Mateo Halland",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "fcbe35fe-76a0-4528-99df-ec86c60b5135": {
+        "id": "fcbe35fe-76a0-4528-99df-ec86c60b5135",
+        "fullName": "Margarita Halland",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "4d965f62-30b1-4f12-a7c4-9925d9428bdc": {
+        "id": "4d965f62-30b1-4f12-a7c4-9925d9428bdc",
+        "fullName": "Mateo Lee",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "570d96f0-18d8-403d-b6b8-91500d4ae7a8": {
+        "id": "570d96f0-18d8-403d-b6b8-91500d4ae7a8",
+        "fullName": "Rodolfo Giovanna",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "a6e135fd-d41d-48fc-bcae-228ad6a4fa02": {
+        "id": "a6e135fd-d41d-48fc-bcae-228ad6a4fa02",
+        "fullName": "Guadalupe Schwarzenegger",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "d86426bb-5f43-4c27-b337-b6f7b552a35f": {
+        "id": "d86426bb-5f43-4c27-b337-b6f7b552a35f",
+        "fullName": "Margarita Joestar",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "e7d115cc-9fee-4b62-b164-8c22ce1116c6": {
+        "id": "e7d115cc-9fee-4b62-b164-8c22ce1116c6",
+        "fullName": "Patricia Lopez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "5da40fd1-9024-42d7-841b-43167a7181ee": {
+        "id": "5da40fd1-9024-42d7-841b-43167a7181ee",
+        "fullName": "Rodolfo Lopez",
+        "role": "PM",
+        "seniority": "Semi_Senior",
+        "salaryAmount": 2400.0,
+        "salaryCurrency": "DOLLARS"
+    },
+    "66d36570-9bd1-4940-b1f6-dfd65d73ac14": {
+        "id": "66d36570-9bd1-4940-b1f6-dfd65d73ac14",
+        "fullName": "Jhoseph Perez",
+        "role": "CEO",
+        "seniority": "Senior",
+        "salaryAmount": 20000.0,
+        "salaryCurrency": "DOLLARS"
+    }
+}

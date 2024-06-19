@@ -2,8 +2,6 @@ using System;
 using Employees.Model;
 using Employees.Model.EmployeeType;
 using Employees.Repositories;
-using Moq;
-using static Employees.Model.Seniority;
 
 namespace Employees.Services
 {
@@ -23,6 +21,7 @@ namespace Employees.Services
             var employee = GenerateEmployeeBasedOn(role, seniority);
             employee.SetFullName(fullName);
             employee.SetId(idGenerator.GenerateId());
+            employee.AssignBaseSalary();
             employeesRepository.SaveEmployee(employee);
             return employee;
         }

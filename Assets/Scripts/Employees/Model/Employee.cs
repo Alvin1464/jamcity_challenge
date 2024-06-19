@@ -21,6 +21,8 @@ namespace Employees.Model
             this.id = id;
         }
 
+        public abstract void AssignBaseSalary();
+
         public Seniority GetSeniority() => 
             seniority;
 
