@@ -4,6 +4,7 @@ using Employees.Model.EmployeeType;
 using Employees.Services;
 using JetBrains.Annotations;
 using static Employees.Services.Role;
+using static Utils.GetRoleFromEmployee;
 
 namespace Employees.Repositories.DTOs
 {
@@ -23,21 +24,7 @@ namespace Employees.Repositories.DTOs
             salaryCurrency = employee.GetSalary().SalaryCurrency.ToString();
             fullName = employee.GetFullName();
             id = employee.GetId();
-            role = GetRole(employee).ToString();
-        }
-
-        static Role GetRole([CanBeNull] Employee employee)
-        {
-            return employee switch
-            {
-                Ceo => CEO,
-                Artist => ARTIST,
-                Engineer => ENGINEER,
-                ProjectManager => PM,
-                HumanResources => HR,
-                Designer => DESIGNER,
-                _ => throw new Exception("Role not exist")
-            };
+            role = GetRoleFrom(employee).ToString();
         }
 
         public Employee ToEmployee()
