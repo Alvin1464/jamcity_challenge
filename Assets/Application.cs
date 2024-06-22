@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Employees.Model;
+using Employees.Repositories;
 using Employees.Repositories.Impl;
 using Employees.Services;
 using UnityEngine;
@@ -74,12 +75,13 @@ public static class ServicesFactory
 {
     static GetEmployeesService getEmployeesService;
     static ApplySalaryIncrementService applySalaryIncrementService;
-    //TODO el repositorio tambien tiene que tomar una unica instancia
+    static EmployeesRepository employeesRepository;
+    
     public static GetEmployeesService GetEmployeesService()
     {
         if (getEmployeesService != null)
             return getEmployeesService;
-        getEmployeesService = new GetEmployeesService(new EmployeesRepositoryJson());
+        getEmployeesService = new GetEmployeesService(GetEmployeesRepository());
         return getEmployeesService;
     }
 
@@ -87,7 +89,15 @@ public static class ServicesFactory
     {
         if (applySalaryIncrementService != null)
             return applySalaryIncrementService;
-        applySalaryIncrementService = new ApplySalaryIncrementService(new EmployeesRepositoryJson());
+        applySalaryIncrementService = new ApplySalaryIncrementService(GetEmployeesRepository());
         return applySalaryIncrementService;
+    }
+
+    static EmployeesRepository GetEmployeesRepository()
+    {
+        if (employeesRepository == null)
+            return employeesRepository;
+        employeesRepository = new EmployeesRepositoryJson();
+        return employeesRepository;
     }
 }

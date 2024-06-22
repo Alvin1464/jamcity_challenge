@@ -2,7 +2,6 @@ using System;
 using Employees.Model;
 using Employees.Model.EmployeeType;
 using Employees.Services;
-using JetBrains.Annotations;
 using static Employees.Services.Role;
 using static Utils.GetRoleFromEmployee;
 
@@ -12,28 +11,27 @@ namespace Employees.Repositories.DTOs
     {
         public string id;
         public string fullName;
-        public string role;
-        public string seniority;
+        public Role role;
+        public Seniority seniority;
         public float salaryAmount;
-        public string salaryCurrency;
+        public Currency salaryCurrency;
 
         public EmployeeDTO(Employee employee)
         {
-            seniority = employee.GetSeniority().ToString();
+            seniority = employee.GetSeniority();
+            salaryCurrency = employee.GetSalary().SalaryCurrency;
             salaryAmount = employee.GetSalary().Amount;
-            salaryCurrency = employee.GetSalary().SalaryCurrency.ToString();
             fullName = employee.GetFullName();
             id = employee.GetId();
-            role = GetRoleFrom(employee).ToString();
+            role = GetRoleFrom(employee);
         }
 
         public Employee ToEmployee()
         {
-            //TODO: checkear si el DTO puede tener structs y Enums asi lo parseo mucho mas facil y seguro.
-            var employee = GenerateEmployeeBasedOn(Enum.Parse<Role>(role), Enum.Parse<Seniority>(seniority));
+            var employee = GenerateEmployeeBasedOn(role, seniority);
             employee.SetId(id);
             employee.SetFullName(fullName);
-            employee.SetSalary(new Salary(salaryAmount, Enum.Parse<Currency>(salaryCurrency)));
+            employee.SetSalary(new Salary(salaryAmount, salaryCurrency));
             return employee;
         }
         
