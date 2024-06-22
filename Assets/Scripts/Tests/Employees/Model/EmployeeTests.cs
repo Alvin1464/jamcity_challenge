@@ -43,6 +43,15 @@ namespace Tests.Employees.Model
             GivenAEmployeeWith(employeeSalary);
             ThenSalaryIs(employeeSalary);
         }
+        
+        [Test]
+        public void EmployeeSalaryCanBeSet()
+        {
+            GivenAEmployeeWith();
+            var salary = new Salary(123, DOLLARS);
+            WhenSetSalary(salary);
+            ThenSalaryIs(salary);
+        }
 
         [Test]
         public void EmployeeHaveAFullName()
@@ -54,6 +63,8 @@ namespace Tests.Employees.Model
         }
 
         void WhenSetFullName(string fullName) => employee.SetFullName(fullName);
+
+        void WhenSetSalary(Salary salary) => employee.SetSalary(salary);
 
         [Test]
         public void EmployeeHaveAnID()
