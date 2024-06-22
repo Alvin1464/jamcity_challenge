@@ -17,9 +17,4 @@ public class Application : MonoBehaviour
         employeesPresenter = new EmployeesPresenter(employeesView, GetEmployeesService());
         employeesPresenter.PopulateEmployees();
     }
-
-    void Update()
-    {
-        
-    }
 }

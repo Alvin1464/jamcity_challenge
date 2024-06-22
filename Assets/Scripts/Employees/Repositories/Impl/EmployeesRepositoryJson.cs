@@ -9,7 +9,7 @@ namespace Employees.Repositories.Impl
 {
     public class EmployeesRepositoryJson : EmployeesRepository
     {
-        static readonly string filepath = "./employeesFile.json";
+        const string filepath = "./employeesFile.json";
 
         public void SaveEmployee(Employee employee)
         {
