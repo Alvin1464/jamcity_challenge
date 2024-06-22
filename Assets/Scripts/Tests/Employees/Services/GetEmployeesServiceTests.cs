@@ -11,21 +11,42 @@ namespace Tests.Employees.Services
     [TestFixture]
     public class GetEmployeesServiceTests
     {
+        GetEmployeesService service;
         readonly Mock<EmployeesRepository> repository = new();
+        Dictionary<string, Employee> returnedEmployees;
+
         [Test]
         public void GetEmployeesFromRepository()
         {
-            var employee = new Ceo();
-            var employee2 = new Artist(Seniority.Semi_Senior);
+            var employees = 
+                GivenARepositoryWithEmployees(out var employee, out var employee2);
+            GivenAGetEmployeesService();
+            WhenExecuteService(service);
+            ThenFetchedEmployeesAre(employees);
+        }
+
+        void ThenFetchedEmployeesAre(Dictionary<string, Employee> employees) => 
+            Assert.AreEqual(employees, returnedEmployees);
+
+        void WhenExecuteService(GetEmployeesService service) => 
+            returnedEmployees = service.Execute();
+
+        void GivenAGetEmployeesService()
+        {
+            service = new GetEmployeesService(repository.Object);
+        }
+
+        Dictionary<string, Employee> GivenARepositoryWithEmployees(out Ceo employee, out Artist employee2)
+        {
+            employee = new Ceo();
+            employee2 = new Artist(Seniority.Semi_Senior);
             var employees = new Dictionary<string, Employee>
             {
-                {"id_1", employee},
-                {"id_2", employee2}
+                { "id_1", employee },
+                { "id_2", employee2 }
             };
             repository.Setup(m => m.GetEmployees()).Returns(employees);
-            var service = new GetEmployeesService(repository.Object);
-            var returnedEmployees = service.Execute();
-            Assert.AreEqual(returnedEmployees, employees);
+            return employees;
         }
     }
 }
