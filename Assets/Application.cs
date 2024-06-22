@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Employees.Model;
@@ -48,6 +47,7 @@ public class EmployeesPresenter
 
     public void PopulateEmployees(List<Employee> employees)
     {
+        employeesView.OnApplySalaryIncrementFor -= OnIncrementSalaryAmountFor;
         foreach (var employee in employees)
         {
             employeesView.InstantiateAEmployeeItem(
@@ -58,19 +58,36 @@ public class EmployeesPresenter
                 employee.GetId());
         }
         
+        employeesView.OnApplySalaryIncrementFor += OnIncrementSalaryAmountFor;
+        
+    }
+
+    void OnIncrementSalaryAmountFor(string id)
+    {
+        var employee = ApplySalaryIncrementService().Execute(id);
+        if (employee != null)
+            employeesView.UpdateFor(employee);
     }
 }
 
 public static class ServicesFactory
 {
-    static GetEmployeesService createdService;
-    
+    static GetEmployeesService getEmployeesService;
+    static ApplySalaryIncrementService applySalaryIncrementService;
+    //TODO el repositorio tambien tiene que tomar una unica instancia
     public static GetEmployeesService GetEmployeesService()
     {
-        if (createdService != null)
-            return createdService;
-        createdService = new GetEmployeesService(new EmployeesRepositoryJson());
-        return createdService;
+        if (getEmployeesService != null)
+            return getEmployeesService;
+        getEmployeesService = new GetEmployeesService(new EmployeesRepositoryJson());
+        return getEmployeesService;
+    }
 
+    public static ApplySalaryIncrementService ApplySalaryIncrementService()
+    {
+        if (applySalaryIncrementService != null)
+            return applySalaryIncrementService;
+        applySalaryIncrementService = new ApplySalaryIncrementService(new EmployeesRepositoryJson());
+        return applySalaryIncrementService;
     }
 }

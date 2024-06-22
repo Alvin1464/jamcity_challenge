@@ -23,6 +23,8 @@ namespace Employees.Model
 
         public abstract void AssignBaseSalary();
 
+        public abstract void ApplySalaryIncrement();
+
         public Seniority GetSeniority() => 
             seniority;
 

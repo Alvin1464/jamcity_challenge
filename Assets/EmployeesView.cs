@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Employees.Model;
 using Employees.Services;
 using Employees.Views;
 using UnityEngine;
 using UnityEngine.UI;
 using static Employees.Services.Role;
+using static Utils.GetRoleFromEmployee;
 
 public class EmployeesView : MonoBehaviour
 {
@@ -19,6 +21,7 @@ public class EmployeesView : MonoBehaviour
     [SerializeField] Button ArtistsFilter;
     [SerializeField] Button DesignersFilter;
     readonly List<EmployeeItemListView> employeesViews = new();
+    public event Action<string> OnApplySalaryIncrementFor;
 
     void Start()
     {
@@ -102,6 +105,21 @@ public class EmployeesView : MonoBehaviour
     {
         var view = Instantiate(employeeItemPrefab, container, true);
         view.SetEmployee(fullName, role, seniority, salary, id);
+        view.OnApplySalaryIncrement += OnApplySalaryIncrement;
         employeesViews.Add(view);
+    }
+
+    void OnApplySalaryIncrement(string id) => 
+        OnApplySalaryIncrementFor?.Invoke(id);
+
+    public void UpdateFor(Employee employee)
+    {
+        var employeeView = employeesViews.First(itemView => itemView.id == employee.GetId());
+        employeeView.SetEmployee(
+            employee.GetFullName(), 
+            GetRoleFrom(employee),
+            employee.GetSeniority(),
+            employee.GetSalary(), 
+            employee.GetId());
     }
 }
