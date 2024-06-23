@@ -15,7 +15,8 @@ namespace Employees.Repositories.Impl
 
         public void SaveEmployee(Employee employee)
         {
-            inMemory[employee.GetId()] = employee;
+            if(inMemory != null)
+                inMemory[employee.GetId()] = employee;
             var dto = new EmployeeDTO(employee);
             var employeeDictionary = GetEmployeeDictionaryDTOs();
             employeeDictionary[dto.id] = dto;
