@@ -11,25 +11,33 @@ namespace Employees.Repositories.Impl
     {
         const string filepath = "./employeesFile.json";
 
+        Dictionary<string, Employee> inMemory;
+
         public void SaveEmployee(Employee employee)
         {
+            inMemory[employee.GetId()] = employee;
             var dto = new EmployeeDTO(employee);
             var employeeDictionary = GetEmployeeDictionaryDTOs();
             employeeDictionary[dto.id] = dto;
             WriteFile(employeeDictionary);
         }
 
+        public Dictionary<string, Employee> GetEmployees()
+        {
+            if (inMemory != null)
+                return inMemory;
+            inMemory = GetEmployeeDictionaryDTOs()
+                .Select(pair => pair.Value.ToEmployee())
+                .ToDictionary(x => x.GetId());
+            return inMemory;
+        }
+        
         static Dictionary<string, EmployeeDTO> GetEmployeeDictionaryDTOs()
         {
             var file = ReadFile();
             var employeeDictionary = ParseEmployeesDictionary(file);
             return employeeDictionary;
         }
-
-        public Dictionary<string, Employee> GetEmployees() => 
-            GetEmployeeDictionaryDTOs()
-                .Select(pair => pair.Value.ToEmployee())
-                .ToDictionary(x => x.GetId());
 
         static void WriteFile(Dictionary<string, EmployeeDTO> employeeDictionary)
         {

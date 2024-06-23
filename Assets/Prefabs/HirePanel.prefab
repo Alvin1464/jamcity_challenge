@@ -1459,17 +1459,17 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Ceo
+    - m_Text: CEO
       m_Image: {fileID: 0}
-    - m_Text: Artist
+    - m_Text: ARTIST
       m_Image: {fileID: 0}
-    - m_Text: Engineer
+    - m_Text: ENGINEER
       m_Image: {fileID: 0}
     - m_Text: PM
       m_Image: {fileID: 0}
     - m_Text: HR
       m_Image: {fileID: 0}
-    - m_Text: Designer
+    - m_Text: DESIGNER
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1754,7 +1754,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ceo
+  m_text: CEO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3657,7 +3657,7 @@ MonoBehaviour:
     m_Options:
     - m_Text: Senior
       m_Image: {fileID: 0}
-    - m_Text: Semi senior
+    - m_Text: Semi_Senior
       m_Image: {fileID: 0}
     - m_Text: Junior
       m_Image: {fileID: 0}
@@ -3677,6 +3677,7 @@ GameObject:
   - component: {fileID: 6156557223329707412}
   - component: {fileID: 3906955776116887666}
   - component: {fileID: 4712935337324179139}
+  - component: {fileID: 6179615974095348066}
   m_Layer: 5
   m_Name: HirePanel
   m_TagString: Untagged
@@ -3771,6 +3772,22 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &6179615974095348066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8575599485643390945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 528e54f6489ca0d43a5b2984c590799b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullNameField: {fileID: 5515624633610910984}
+  roleSelector: {fileID: 775242497339228208}
+  senioritySelector: {fileID: 5686166503074584207}
+  confirm: {fileID: 6500267146437659611}
 --- !u!1 &8957233146845521631
 GameObject:
   m_ObjectHideFlags: 0

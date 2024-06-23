@@ -12,6 +12,7 @@ using static Utils.GetRoleFromEmployee;
 public class EmployeesView : MonoBehaviour
 {
     [SerializeField] EmployeeItemListView employeeItemPrefab;
+    [SerializeField] HirePanelView hirePanelView;
     [SerializeField] Transform container;
     [SerializeField] Button AllFilter;
     [SerializeField] Button HRFilter;
@@ -22,6 +23,7 @@ public class EmployeesView : MonoBehaviour
     [SerializeField] Button DesignersFilter;
     readonly List<EmployeeItemListView> employeesViews = new();
     public event Action<string> OnApplySalaryIncrementFor;
+    public event Action<string, Role, Seniority> OnHire; 
 
     void Start()
     {
@@ -73,7 +75,16 @@ public class EmployeesView : MonoBehaviour
             DesignersFilter.interactable = false;
             FilterEmployees(DESIGNER);
         });
+
+        hirePanelView.OnHire += OnHireNewEmployee;
     }
+
+    void OnHireNewEmployee(string fullName, Role role, Seniority seniority)
+    {
+        OnHire?.Invoke(fullName, role, seniority);
+    }
+
+    
 
     void EnableAllButtonFilters()
     {
@@ -121,5 +132,15 @@ public class EmployeesView : MonoBehaviour
             employee.GetSeniority(),
             employee.GetSalary(), 
             employee.GetId());
+    }
+
+    public void ClearEmployees()
+    {
+        foreach (var employeeItemView in employeesViews) {
+            employeeItemView.OnApplySalaryIncrement -= OnApplySalaryIncrement;
+            Destroy(employeeItemView.gameObject);
+        }
+
+        employeesViews.Clear();
     }
 }

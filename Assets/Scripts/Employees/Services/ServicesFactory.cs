@@ -1,11 +1,13 @@
 using Employees.Repositories;
 using Employees.Repositories.Impl;
 using Employees.Services;
+using Employees.Services.Implementation;
 
 public static class ServicesFactory
 {
     static GetEmployeesService getEmployeesService;
     static ApplySalaryIncrementService applySalaryIncrementService;
+    static HireEmployeeService hireEmployeeService;
     static EmployeesRepository employeesRepository;
     
     public static GetEmployeesService GetEmployeesService()
@@ -14,6 +16,14 @@ public static class ServicesFactory
             return getEmployeesService;
         getEmployeesService = new GetEmployeesService(GetEmployeesRepository());
         return getEmployeesService;
+    }
+
+    public static HireEmployeeService HireEmployeeService()
+    {
+        if (hireEmployeeService != null)
+            return hireEmployeeService;
+        hireEmployeeService = new HireEmployeeService(new IdGeneratorGUID(), GetEmployeesRepository());
+        return hireEmployeeService;
     }
 
     public static ApplySalaryIncrementService ApplySalaryIncrementService()
